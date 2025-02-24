@@ -2,8 +2,11 @@
 
 > [!NOTE]
 > The official Carch Wiki and documentation are built with VitePress, which remains the primary official documentation for now.
+> 
 > I created this version with Starlight as a test to explore the template.
-> And guess what? It’s awesome! You can check it out too [here](https://carch-org.github.io/wiki), but I won’t be adding this link to the official Carch documentation.> as vitepress docs are superiror for me for this date.
+>
+> And guess what? It’s awesome! You can check it out too [here](https://carch-org.github.io/wiki), but I won’t be adding this link to the official Carch documentation.
+>
 > For now, VitePress remains superior in my opinion.
 By the way, thanks to the developer for this amazing template—love it! ❤️
 
