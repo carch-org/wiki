@@ -1,13 +1,11 @@
 name: Deploy Carch Docs
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
     branches: [ main ]
-    paths: [ src/**,public/** ]
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
-  workflow_dispatch:
+    paths:
+      - '**'  
+  workflow_dispatch:  # Allows manual trigger
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
