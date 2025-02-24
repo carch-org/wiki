@@ -29,9 +29,17 @@ export default defineConfig({
           badge: { text: 'New', variant: 'success' } 
         },
 				{ label: 'Commands', slug: 'reference/commands' },
-				{ label: 'Overview Scripts', slug: 'reference/overview-scripts' },
+				{ 
+          label: 'Overview Scripts', 
+          slug: 'reference/overview-scripts', 
+          badge: { text: 'Updated', variant: 'info' } 
+        },
 				{ label: 'Roadmap', slug: 'project/roadmap' },
-				{ label: 'Contributing', slug: 'project/contributing' },
+				{ 
+          label: 'Contributing', 
+          slug: 'project/contributing', 
+          badge: { text: 'Important', variant: 'warning' } 
+        },
 				{ label: 'Code of Conduct', slug: 'project/code-of-conduct' },
 				{ label: 'Inspiration', slug: 'project/inspiration' },
 				{ label: 'Contributions', slug: 'project/contributions' },
