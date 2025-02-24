@@ -23,8 +23,11 @@ export default defineConfig({
       lastUpdated: true,
 			sidebar: [
 				{ label: 'Introduction', slug: 'getting-started/introduction' },
-				{ label: 'Installation', slug: 'getting-started/installation' },
-        { label: 'Installation', slug: 'getting-started/installation', badge: { text: 'New', variant: 'success' } },
+				{ 
+          label: 'Installation', 
+          slug: 'getting-started/installation', 
+          badge: { text: 'New', variant: 'success' } 
+        },
 				{ label: 'Commands', slug: 'reference/commands' },
 				{ label: 'Overview Scripts', slug: 'reference/overview-scripts' },
 				{ label: 'Roadmap', slug: 'project/roadmap' },
