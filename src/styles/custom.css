@@ -1,0 +1,131 @@
+/* Dark mode colors (Catppuccin Mocha-inspired dark blue) */
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #1E1E2E;
+  --sl-color-accent: #89B4FA;
+  --sl-color-accent-high: #74C7EC;
+  /* hyperlinks, selection bg, left-top corner title, etc. */
+  --sl-color-white: #CDD6F4;
+  /* highlighted text */
+  --sl-color-gray-1: #BAC2DE;
+  /* text on top bar */
+  --sl-color-gray-2: #A6ADC8;
+  /* normal text */
+  --sl-color-gray-3: #89B4FA;
+  /* TOC on right side */
+  --sl-color-gray-4: #45475A;
+  --sl-color-gray-5: #313244;
+  /* bullet line on side bar */
+  --sl-color-gray-6: #1E1E2E;
+  /* sidebar, topbar */
+  --sl-color-black: #11111B;
+}
+
+/* Page title */
+:root[data-theme='dark'] h1:is(#_top) {
+  color: #89B4FA;
+}
+
+/* Headings */
+:root[data-theme='dark'] .sl-markdown-content h1 {
+  color: #89B4FA;
+  font-size: 200%;
+}
+
+:root[data-theme='dark'] .sl-markdown-content h2 {
+  color: #74C7EC;
+  font-size: 165%;
+}
+
+:root[data-theme='dark'] .sl-markdown-content h3 {
+  color: #89B4FA;
+  font-size: 140%;
+}
+
+:root[data-theme='dark'] .sl-markdown-content h4 {
+  color: #B4BEFE;
+  font-size: 125%;
+}
+
+:root[data-theme='dark'] .sl-markdown-content h5 {
+  color: #A6ADC8;
+  font-size: 116%;
+}
+
+:root[data-theme='dark'] .sl-markdown-content h6 {
+  color: #CBA6F7;
+  font-size: 110%;
+}
+
+/* Light mode colors (Catppuccin Latte-inspired) */
+:root[data-theme='light'] {
+  --sl-color-accent-low: #EFF1F5;
+  --sl-color-accent: #7287FD;
+  --sl-color-accent-high: #1E66F5;
+  --sl-color-white: #4C4F69;
+  --sl-color-gray-1: #4C4F69;
+  --sl-color-gray-2: #5C5F77;
+  --sl-color-gray-3: #7287FD;
+  --sl-color-gray-4: #9399B2;
+  --sl-color-gray-5: #ACB0BE;
+  --sl-color-gray-6: #BCC0CC;
+  --sl-color-gray-7: #DFE2EE;
+  --sl-color-black: #E6E9EF;
+}
+
+/* Page title */
+:root[data-theme='light'] h1:is(#_top) {
+  color: #1E66F5;
+}
+
+/* Headings */
+:root[data-theme='light'] .sl-markdown-content h1 {
+  color: #1E66F5;
+  font-size: 200%;
+}
+
+:root[data-theme='light'] .sl-markdown-content h2 {
+  color: #7287FD;
+  font-size: 165%;
+}
+
+:root[data-theme='light'] .sl-markdown-content h3 {
+  color: #7287FD;
+  font-size: 140%;
+}
+
+:root[data-theme='light'] .sl-markdown-content h4 {
+  color: #4C4F69;
+  font-size: 125%;
+}
+
+:root[data-theme='light'] .sl-markdown-content h5 {
+  color: #5C5F77;
+  font-size: 116%;
+}
+
+:root[data-theme='light'] .sl-markdown-content h6 {
+  color: #7287FD;
+  font-size: 110%;
+}
+
+img {
+  border-radius: 7px;
+}
+
+code {
+  border-radius: 5px;
+}
+
+.card {
+  background-color: var(--sl-color-gray-6) !important;
+  border-radius: 25px;
+}
+
+header {
+  border-bottom: 1px solid var(--sl-color-gray-5) !important;
+}
+
+blockquote {
+  border-left: 4px solid var(--sl-color-gray-5) !important;
+}
+

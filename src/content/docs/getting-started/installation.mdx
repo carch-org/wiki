@@ -1,0 +1,45 @@
+---
+title: Installation
+lastUpdated: 2025-02-24
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+<img src="https://img.icons8.com/?size=80&id=v8LYQxpvZ4xX&format=png" width="60" />
+
+:::caution[Caution]
+> I do not guarantee that Carch will work on Arch-based* or Fedora-based* distros. Use it on such distros at your own risk, as I do not officially support them.
+> 
+> However, Carch will work fine on the mainline distributions, like Arch Linux and Fedora.
+:::
+
+**To install Carch, execute the following command in your terminal:**
+
+
+:::note[Note]
+> **Make sure to install `curl` before running this command:** **`sudo pacman -S curl`** or **`sudo dnf install curl -y`**  
+>
+> **Also, check the `make` and `less` packages (for Arch only).**
+:::
+
+
+<Tabs syncKey="pkg">
+<TabItem label="Arch">
+
+```sh
+bash <(curl -L https://chalisehari.com.np/arch)
+```
+
+</TabItem>
+<TabItem label="Fedora">
+
+```sh
+bash <(curl -L https://chalisehari.com.np/fedora)
+```
+
+</TabItem>
+</Tabs>
+
+:::tip[Tip]
+You don't need to run the installation script every time. You can run it once, and then simply type carch in your terminal whenever you want to automatically execute the Carch script.
+

@@ -1,0 +1,51 @@
+---
+title: Carch 
+template: splash
+editUrl: true 
+banner:
+  content: |
+   Carch v4.1.3 
+    <a href="https://github.com/harilvfs/carch/releases/tag/v4.1.3">
+      Check Out Now
+    </a>
+hero:
+  title: |
+    <p style="font-size: 40px;">Carch</p>
+    <p style="font-size: 55px;">Automate Your Linux Setup</p>
+  tagline: |
+    <p style="font-size: 18px;">A simple Bash script for quick, efficient, and preconfigured Linux system setup (Arch & Fedora) 🧩</p>
+  image:
+    file: ../../assets/carch.png
+  actions:
+    - text: What is Carch?
+      link: ./getting-started/introduction
+      icon: right-arrow
+      variant: primary
+    - text: Get Start
+      link: ./getting-started/installation
+      icon: right-arrow
+      variant: primary
+    - text: Repo (harilvfs/Carch)
+      link: https://github.com/harilvfs/carch
+      icon: external
+lastUpdated: false
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Easy Setup" icon="pencil">
+		Quick and straightforward installation of essential packages.
+	</Card>
+	<Card title="Fedora" icon="add-document">
+		Adds full support for Fedora Linux, alongside Arch-based systems, with tailored setup scripts.
+  </Card>
+	<Card title="Multiple Scripts" icon="setting">
+		Automate the setup of various environments, including Dwm and Hyprland.
+	</Card>
+	<Card title="Active Development" icon="open-book">
+		Continuous updates and new features based on community feedback.
+	</Card>
+</CardGrid>
+
+> [This wiki](https://github.com/carch-docs/wiki) is open for [contribution](https://github.com/carch-org/wiki/fork)
