@@ -26,19 +26,19 @@ export default defineConfig({
 				{ 
           label: 'Installation', 
           slug: 'getting-started/installation', 
-          badge: { text: 'New', variant: 'success' } 
+          badge: { text: 'Fedora Support', variant: 'success' } 
         },
 				{ label: 'Commands', slug: 'reference/commands' },
 				{ 
           label: 'Overview Scripts', 
           slug: 'reference/overview-scripts', 
-          badge: { text: 'Updated', variant: 'info' } 
+          badge: { text: 'Updated', variant: 'note' } 
         },
 				{ label: 'Roadmap', slug: 'project/roadmap' },
 				{ 
           label: 'Contributing', 
           slug: 'project/contributing', 
-          badge: { text: 'Important', variant: 'warning' } 
+          badge: { text: 'Caution', variant: 'caution' } 
         },
 				{ label: 'Code of Conduct', slug: 'project/code-of-conduct' },
 				{ label: 'Inspiration', slug: 'project/inspiration' },
