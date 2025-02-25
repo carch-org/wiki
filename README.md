@@ -29,14 +29,9 @@ This is the documentation site for the [Carch](https://github.com/harilvfs/carch
 </div>
 
 > [!NOTE]
-> The official Carch Wiki and documentation are built with VitePress, which remains the primary official documentation for now.
-> 
-> I created this version with Starlight as a test to explore the template.
->
-> And guess what? It’s awesome! You can check it out too [here](https://carch-org.github.io/wiki), but I won’t be adding this link to the official Carch documentation.
->
-> For now, VitePress remains superior in my opinion.
-By the way, thanks to the developer for this amazing template—love it! ❤️
+> There is another documentation site built with VitePress in the [repo](https://github.com/carch-org/docs).
+> It is also intended for `Carch docs`, but for now, I am updating the documentation using Starlight Astro.
+> I'm not sure if I will continue maintaining the VitePress site, but I am officially declaring this as the official Carch documentation site.
 
 ## 🚀 Project Structure
 
@@ -78,5 +73,5 @@ All commands are run from the root of the project, from a terminal:
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
 
-[check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
-[link]: https://github.com/carch-org/docs/actions/workflows/docs.yml
+[check]: https://github.com/carch-org/wiki/actions/workflows/deploy.yml/badge.svg
+[link]: https://github.com/carch-org/wiki/actions/workflows/deploy.yml
