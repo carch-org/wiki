@@ -1,5 +1,31 @@
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+<div align="center">
+  
+<img src="/src/assets/carch.png" width="70" />
+
+<h4> 
+  
+This is the documentation site for the [Carch](https://github.com/harilvfs/carch), built with Starlight Astro.
+</h4>
+
+</div>
+<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
+  <img src="https://img.shields.io/github/license/carch-org/wiki?style=for-the-badge&color=e0ea9d&logoColor=D9E0EE&labelColor=171b22">
+  <br><br>
+  <img src="https://img.shields.io/github/last-commit/carch-org/wiki?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/stars/carch-org/wiki?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/forks/carch-org/wiki?style=for-the-badge&color=9dc3ea&logoColor=D9E0EE&labelColor=1c1c29" />
+</p>
+
+<br>
+
+<div align = "center"
+  
+[![github actions build status][check]][link]
+
+</div>
+
 > [!NOTE]
 > The official Carch Wiki and documentation are built with VitePress, which remains the primary official documentation for now.
 > 
@@ -49,3 +75,6 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+
+[check]: https://github.com/carch-org/docs/actions/workflows/docs.yml/badge.svg
+[link]: https://github.com/carch-org/docs/actions/workflows/docs.yml
