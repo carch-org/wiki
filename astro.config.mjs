@@ -9,6 +9,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Carch',
+      logo: {
+        light: '/src/assets/carch.png',
+        dark: '/src/assets/carch.png',
+        replacesTitle: false,
+      },
 			social: {
         discord: 'https://discord.com/invite/8NJWstnUHd',
         reddit: 'https://www.reddit.com/r/carch/',
