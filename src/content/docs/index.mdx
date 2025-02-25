@@ -11,17 +11,17 @@ banner:
 hero:
   title: |
     <p style="font-size: 40px;">Carch</p>
-    <p style="font-size: 55px;">Automate Your Linux Setup</p>
+    <p style="font-size: 55px;">Automate Your Linux Setup ⚙️</p>
   tagline: |
     <p style="font-size: 18px;">A simple Bash script for quick, efficient, and preconfigured Linux system setup (Arch & Fedora) 🧩</p>
   image:
-    file: ../../assets/carch.png
+    html: "<img alt='A screenshot.' src='/wiki/carch-wiki.jpg' width='600' />"
   actions:
     - text: What is Carch?
       link: ./getting-started/introduction
       icon: right-arrow
       variant: primary
-    - text: Get Start
+    - text: Install 
       link: ./getting-started/installation
       icon: right-arrow
       variant: primary
@@ -32,6 +32,7 @@ lastUpdated: false
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import AboutAstro from '../../components/footer.astro';
 
 <CardGrid stagger>
 	<Card title="Easy Setup" icon="setting">
@@ -49,3 +50,9 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 </CardGrid>
 
 > [This wiki](https://github.com/carch-docs/wiki) is open for [contribution](https://github.com/carch-org/wiki/fork)
+
+
+<AboutAstro title="">
+  &copy; {new Date().getFullYear()} Hari Chalise. All rights reserved.
+</AboutAstro>
+

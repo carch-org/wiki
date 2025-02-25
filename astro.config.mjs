@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import catppuccin from "starlight-theme-catppuccin";
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,6 +15,15 @@ export default defineConfig({
         dark: '/src/assets/carch.png',
         replacesTitle: false,
       },
+      plugins: [catppuccin({ dark: 'mocha-mauve', light: 'latte-mauve' })],
+      expressiveCode: {
+				themes: ['catppuccin-mocha', 'catppuccin-latte'],
+			},
+			customCss: [
+        "@fontsource/inter/400.css",
+        "@fontsource/inter/600.css",
+				"./src/styles/custom.css",
+			],
 			social: {
         discord: 'https://discord.com/invite/8NJWstnUHd',
         reddit: 'https://www.reddit.com/r/carch/',
@@ -22,7 +32,6 @@ export default defineConfig({
       editLink: {
           baseUrl: 'https://github.com/carch-org/wiki/tree/main',
       },
-      customCss: ['./src/styles/custom.css'],
       tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 2, },
       favicon: './carch.png',
       lastUpdated: true,
