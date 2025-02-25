@@ -30,7 +30,9 @@ This is the documentation site for the [Carch](https://github.com/harilvfs/carch
 
 > [!IMPORTANT]
 > There is another documentation site built with VitePress in the [repo](https://github.com/carch-org/docs).
+> 
 > It is also intended for `Carch docs`, but for now, I am updating the documentation using Starlight Astro.
+> 
 > I'm not sure if I will continue maintaining the VitePress site, but I am officially declaring this as the official Carch documentation site.
 
 ## 🚀 Project Structure
