@@ -27,7 +27,8 @@ export default defineConfig({
 			social: {
         discord: 'https://discord.com/invite/8NJWstnUHd',
         reddit: 'https://www.reddit.com/r/carch/',
-        telegram: 'https://t.me/carchx'
+        telegram: 'https://t.me/carchx',
+        matrix: 'https://matrix.to/#/#carch:matrix.org'
 			},
       editLink: {
           baseUrl: 'https://github.com/carch-org/wiki/tree/main',
