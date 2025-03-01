@@ -43,3 +43,35 @@ bash <(curl -L https://chalisehari.com.np/fedora)
 :::tip[Tip]
 You don't need to run the installation script every time. You can run it once, and then simply type carch in your terminal whenever you want to automatically execute the Carch script.
 
+## Manual Installation
+
+### Dependencies
+
+<Tabs syncKey="pkg">
+<TabItem label="Arch">
+
+```sh
+sudo pacman -S rust gum figlet man-db man git wget unzip noto-fonts-emoji ttf-joypixels curl tree-sitter tree-sitter-bash gcc-libs glibc bash bash-completion ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono-nerd bat zsh fish
+```
+
+</TabItem>
+<TabItem label="Fedora">
+
+```sh
+sudo dnf install rust gum figlet man-db man git wget unzip google-noto-color-emoji-fonts google-noto-emoji-fonts bat jetbrains-mono-fonts-all bash-completion-devel zsh fish rust-tree-sitter-devel glibc curl gcc
+```
+
+</TabItem>
+</Tabs>
+
+## Clone and Build
+
+```sh
+git clone --depth 1 https://github.com/harilvfs/carch
+cd carch
+cargo build --release
+cd target/release/
+sudo cp -r carch /usr/bin/ 
+```
+
+Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. It should work fine, but if any problems arise, feel free to open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
