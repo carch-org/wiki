@@ -22,18 +22,11 @@ This is the documentation site for the [Carch](https://github.com/harilvfs/carch
   <img src="https://img.shields.io/github/last-commit/carch-org/wiki?style=for-the-badge&logo=github&color=7dc4e4&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/stars/carch-org/wiki?style=for-the-badge&logo=apachespark&color=eed49f&logoColor=D9E0EE&labelColor=1c1c29"/> <img src="https://img.shields.io/github/forks/carch-org/wiki?style=for-the-badge&color=9dc3ea&logoColor=D9E0EE&labelColor=1c1c29" />
 </p>
 
-<div align = "center"
+<div align = "center">
   
 [![github actions build status][check]][link]
 
 </div>
-
-> [!IMPORTANT]
-> There is another documentation site built with VitePress in the [repo](https://github.com/carch-org/docs).
-> 
-> It is also intended for `Carch docs`, but for now, I am updating the documentation using Starlight Astro.
-> 
-> I'm not sure if I will continue maintaining the VitePress site, but I am officially declaring this as the official Carch documentation site.
 
 ## 🚀 Project Structure
 
