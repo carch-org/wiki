@@ -17,9 +17,9 @@ export default defineConfig({
         }),
       ],
       social: {
-        discord: 'https://discord.com/invite/8NJWstnUHd',
-        telegram: 'https://t.me/carchx',
-        email: 'mailto:harilvfs@chalisehari.com.np'
+        { icon: 'discord', label: 'Discord', href: 'https://discord.com/invite/8NJWstnUHd' },
+        { icon: 'telegram', label: 'Telegram', href: 'https://t.me/carchx' },
+        { icon: 'email', label: 'Mail', href: 'mailto:harilvfs@chalisehari.com.np' },
       },
       editLink: {
         baseUrl: 'https://github.com/carch-org/wiki/tree/main',
