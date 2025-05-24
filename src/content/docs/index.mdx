@@ -4,21 +4,21 @@ template: splash
 editUrl: true 
 banner:
   content: |
-   Carch v4.1.5 
-    <a href="https://github.com/harilvfs/carch/releases/tag/v4.1.4">
+   Carch v4.4.7 
+    <a href="https://github.com/harilvfs/carch/releases/tag/v4.4.7">
       Check Out Now
     </a>
 hero:
   title: |
     <p style="font-size: 40px;">Carch</p>
-    <p style="font-size: 55px;">Automate Your Linux Setup ⚙️</p>
+    <p style="font-size: 55px;">Automate Your Linux Setup</p>
   tagline: |
-    <p style="font-size: 18px;">A simple Bash script for quick, efficient, and preconfigured Linux system setup (Arch & Fedora) 🧩</p>
+    <p style="font-size: 18px;">A Simple Script to Make Linux System Setup Easier 🧩</p>
   image:
-    html: "<img alt='A screenshot.' src='/wiki/preview.gif' width='500' />"
+    html: "<img alt='A screenshot.' src='https://raw.githubusercontent.com/harilvfs/carch/refs/heads/main/.github/preview.gif' width='600' />"
   actions:
-    - text: What is Carch?
-      link: ./getting-started/introduction
+    - text: Wait, Carch? What’s that?
+      link: ./getting-started/about
       icon: right-arrow
       variant: primary
     - text: Install 
@@ -28,31 +28,25 @@ hero:
     - text: Repo (harilvfs/Carch)
       link: https://github.com/harilvfs/carch
       icon: external
-lastUpdated: false
+lastUpdated: true 
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 import AboutAstro from '../../components/footer.astro';
 
 <CardGrid stagger>
-	<Card title="Easy Setup" icon="setting">
-		Quick and straightforward installation of essential packages.
+	<Card title="Bash Scripts, Easy Life" icon="setting">
+		Setup is still powered by simple Bash scripts—fast, clean, and no fluff.
 	</Card>
-	<Card title="Fedora" icon="linux">
+	<Card title="Fedora Friendly" icon="linux">
 		Adds full support for Fedora Linux, alongside Arch-based systems, with tailored setup scripts.
   </Card>
-	<Card title="Multiple Scripts" icon="add-document">
-		Automate the setup of various environments, including Dwm and Hyprland.
+	<Card title="Tweak All the Things" icon="add-document">
+		Includes a bunch of scripts to set up DWM, Hyprland, and other environments.
 	</Card>
-	<Card title="Active Development" icon="approve-check">
-		Continuous updates and new features based on community feedback.
+	<Card title="Still Cooking" icon="approve-check">
+		Actively improving stuff—now with a Rust-powered TUI and more updates coming.
 	</Card>
 </CardGrid>
 
 > [This wiki](https://github.com/carch-docs/wiki) is open for [contribution](https://github.com/carch-org/wiki/fork)
-
-
-<AboutAstro title="">
-  &copy; {new Date().getFullYear()} Hari Chalise. All rights reserved.
-</AboutAstro>
-

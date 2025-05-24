@@ -1,9 +1,8 @@
 ---
 title: Code of Conduct
-lastUpdated: 2025-02-25
+lastUpdated: 2025-05-25
 ---
 
-# Contributor Covenant Code of Conduct
 <img src="https://img.icons8.com/?size=80&id=X8FDBhUFMq9b&format=png" width="50" />
 
 ## Our Pledge
@@ -47,6 +46,3 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4, available at https://www.contributor-covenant.org/version/1/4/. 
 
 For other projects, see the [full list of versions](https://www.contributor-covenant.org/version/).
-
-
-

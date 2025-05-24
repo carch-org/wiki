@@ -1,76 +1,58 @@
 ---
 title: Contributing
-lastUpdated: 2025-02-25
+lastUpdated: 2025-05-25
 ---
-
-import { Tabs, TabItem, FileTree, Steps } from '@astrojs/starlight/components';
-
-# Contributing to **Carch** 
 
 <img src="https://cdn-icons-png.flaticon.com/128/993/993686.png" width="50" />
 
-We’re excited that you’re interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you’re fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
+We're excited that you're interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you're fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
 
-:::caution[Caution]
-**Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation.  
+:::tip[Tip]
+> **Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation.  
+
 :::
 
 ## 📌 Understand the Codebase
 
-Before contributing, **understand the structure** of Carch:
+:::note[Note]
 
-<Steps>
+> Before contributing, **understand the structure** of Carch:
+> - **The `main` Rust files of Carch are located in:** `src`
+>
+>```text
+> src/
+> ├── ui/
+> │   ├── app.rs
+> │   ├── mod.rs
+> │   ├── popups.rs
+> │   └── render.rs 
+> ├── main.rs 
+> ├── commands.rs
+> ├── display.rs
+> ├── script_list.rs 
+> └── version.rs
+> ```
+> 
+> - **All `modules` scripts are organized by category in:**  
+> ```text
+> modules/
+> ├── Browser/     # Browser related scripts 
+> ├── Desktop/     # Desktop environment related scripts
+> ├── Development/ # Development tools scripts
+> ├── System/      # System configuration scripts
+> └── Terminal/    # Terminal setup scripts
+> ```
 
-1. **The `main script` of Carch is located in:** 
-
-   <FileTree>
-
-   - src/
-     - scripts/
-       - carch Main **Carch** Script 
-   - main.rs Main **Rust** Script
-
-   </FileTree>
-
-
-2. **All `additional` scripts of Carch are stored in:**  
-
-   <FileTree>
-
-    - src/scripts/scripts/
-       - **Alacritty.sh**
-       - **Aur.sh**
-       - **Bash.sh**
-       - **Bun.sh**
-       - **Dwm.sh**
-       - **Fastfetch.sh**
-       - **Fish.sh**
-       - **Fonts.sh**
-       - **Grub.sh**
-       - **Helix.sh**
-       - **Hyprland.sh**
-       - **i3wm.sh**
-       - **Kitty.sh**
-       - **LTS-Kernel.sh**
-       - **Neovim.sh**
-       - **Npm.sh**
-       - **Packages.sh**
-       - **Picom.sh**
-       - **Rofi.sh**
-       - **Sddm.sh**
-       - **SwayWM.sh**
-       - **Themes-Icons.sh**
-       - **Tmux.sh**
-       - **Wallpapers.sh**
-       - **Zsh.sh**
-
-   </FileTree>    
-
-</Steps>
-
-:::tip[Tip]
-> First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project’s design. 
 :::
+
+> First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project's design. 
+>
+> ```sh
+> For committing, use labels like feat: your-commit-message or fix: your-commit-message.
+> ```
+> 
+> For more information about label messages, check out [here](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+
 
 If you have questions or need help, feel free to **contact us**:  
 📧 Email: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
@@ -119,7 +101,7 @@ If you have questions or need help, feel free to **contact us**:
 
 ### 5. 🔧 Make Your Changes
 - Implement the necessary changes to the code or documentation.
-- Ensure that your changes are clear, tested, and follow the project’s coding standards.
+- Ensure that your changes are clear, tested, and follow the project's coding standards.
 
 ### 6. 📝 Stage and Commit Your Changes
 - Add the modified files to the staging area:
@@ -170,9 +152,6 @@ If you have questions or need help, feel free to **contact us**:
    ```bash
    git merge upstream/main
    ```
-  - Replace `main` with the default branch of the repository if it’s different.
+  - Replace `main` with the default branch of the repository if it's different.
 
 Thank you for contributing to **Carch**! Your effort helps make this project better for everyone. <img src="https://cdn-icons-png.flaticon.com/128/2279/2279398.png" width="50" />
-
-
-

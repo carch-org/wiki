@@ -1,9 +1,7 @@
 ---
 title: Overview Scripts
-lastUpdated: 2025-02-25
+lastUpdated: 2025-05-25
 ---
-
-# Scripts
 
 <img src="https://cdn-icons-png.flaticon.com/128/3721/3721643.png" width="40" />
 
@@ -75,7 +73,7 @@ lastUpdated: 2025-02-25
 ## Zsh Prompt
 - *Configures a stylish Zsh prompt with added functionalities like syntax highlighting, auto-completion, and custom themes for a more efficient shell experience.*
 
-## Fish
+## Fish 
 - *Installs and configures the Fish shell, offering an interactive and user-friendly command-line environment with advanced features such as auto-suggestions and a clean syntax.*
 
 ## Bun  
@@ -84,3 +82,26 @@ lastUpdated: 2025-02-25
 ## Npm  
 - *Ensures npm is installed correctly, offering an alternative setup if needed.*  
 
+## Chaotic AUR
+- *Install and configure Pacman to add the Chaotic AUR on Arch.*
+
+## Dunst
+- *Configures Dunst, a lightweight and customizable notification daemon, with optimized settings for a sleek and unobtrusive experience.*
+
+## Foot
+- *Sets up the Foot terminal emulator with wayland support and custom configurations.*
+
+## Ghostty
+- *Sets up the Ghostty terminal emulator with GPU acceleration and custom configurations.*
+
+## Audio
+- *Install & Sets up PipeWire audio system.*
+
+## Bluetooth
+- *Install Bluetooth Needed Packages & Sets up Bluetooth.*
+
+## Brightness 
+- *Set the brightness level to your preference using Brightnessctl.* 
+
+## Extensions
+- *Recommend some useful Extensions for Chromium or Firefox based browser's.*

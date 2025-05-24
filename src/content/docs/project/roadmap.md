@@ -1,20 +1,19 @@
 ---
 title: Roadmap
-lastUpdated: 2025-02-25
+lastUpdated: 2025-05-25
 ---
 
-# Carch Project Roadmap 
 <img src="https://img.icons8.com/?size=80&id=CBfO8TrnezXC&format=png" width="50" />
 
 **Current Phase** *[ Advancing Script Development ]* <img src="https://cdn-icons-png.flaticon.com/128/4315/4315445.png" width="20" /> 
 
-*The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch Linux setup process.* 🛠️
+*The project is now progressing through its development phase, focusing on creating scripts to simplify the Arch & fedora linux setup process.* 🛠️
 
 ## Upcoming Features and Improvements ✨
 
 - **Expand Functionality for Different Distributions 🌐**
    - Add full support for popular distributions:
-     - **Arch** (including Manjaro) 🖥️ <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
+     - **Arch** <img src="https://img.icons8.com/?size=48&id=uIXgLv5iSlLJ&format=png" width="20" />
      - **Debian** <img src="https://img.icons8.com/?size=48&id=17838&format=png" width="20" /> 
      - **Fedora** <img src="https://img.icons8.com/?size=48&id=ZbBhBW0N2q3D&format=png" width="20" />
      - **openSUSE** <img src="https://cdn0.iconfinder.com/data/icons/flat-round-system/512/opensuse-512.png" width="20" /> 
@@ -39,7 +38,6 @@ lastUpdated: 2025-02-25
    - Include guides and documentation to assist new users.
 
 ## Carch Project Checklist 
-<img src="https://cdn-icons-png.flaticon.com/128/8090/8090840.png" width="30" />
 
 - **Expand support for popular distributions:**
 
@@ -56,7 +54,7 @@ lastUpdated: 2025-02-25
 
 - **Implement Rust :**
 
-  - Develop a TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" /> 
+  - Develop a TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Create a single executable binary. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
 
@@ -64,7 +62,7 @@ lastUpdated: 2025-02-25
 
   - i3 setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - DWM setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-  - Sway setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Sway setup script [ Currently Only For Arch ] <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
   - Hyprland window manager scripts <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Bspwm setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
   - River setup script <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
@@ -80,7 +78,5 @@ lastUpdated: 2025-02-25
 ## Timeline (Tentative) 📅
 
 - **Q 2024**: Develop additional WM setup scripts and core system setup scripts. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
-- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support (including Fedora ✅). [If possible] <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-  - Develop a Rust-based TUI for enhanced user interaction. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
-
-
+- **Q Mid 2025/2026**: Refactor existing scripts for stability and begin expanding distribution support. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
+    - Develop a Rust-based TUI for enhanced user interaction. 🦀 <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
