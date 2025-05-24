@@ -5,7 +5,7 @@ import catppuccin from "@catppuccin/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://carch-org.io',
+  site: 'https://carch.chalisehari.com.np',
   base: '/',
   integrations: [
     starlight({
@@ -33,7 +33,7 @@ export default defineConfig({
         { label: 'Reference', autogenerate: { directory: 'reference' } },
       ],
       customCss: [
-        "./src/styles/custom.css",  // Your custom CSS file path here
+        "./src/styles/custom.css",
       ],
     }),
   ],
