@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/',
   integrations: [
     starlight({
-      title: 'Carch',
+      title: 'Wiki',
       plugins: [
         catppuccin({
           dark: { flavor: "mocha", accent: "flamingo" },
