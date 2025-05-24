@@ -8,6 +8,7 @@
         "@catppuccin/starlight": "^1.0.1",
         "@fontsource/inter": "^5.1.1",
         "astro": "^5.7.5",
+        "node": "^22.16.0",
         "sharp": "^0.32.5",
         "starlight-theme-catppuccin": "^2.0.0",
       },
@@ -688,9 +689,13 @@
 
     "nlcst-to-string": ["nlcst-to-string@4.0.0", "", { "dependencies": { "@types/nlcst": "^2.0.0" } }, "sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA=="],
 
+    "node": ["node@22.16.0", "", { "dependencies": { "node-bin-setup": "^1.0.0" }, "bin": { "node": "bin/node" } }, "sha512-rJlZ29rJLShrkDJrvLUfuxMJT5in2o1C0PhOPjZI9yHnctqk9m85sSyoAdhkN98Xb14NeobmCiIKFWqT2E1+bA=="],
+
     "node-abi": ["node-abi@3.74.0", "", { "dependencies": { "semver": "^7.3.5" } }, "sha512-c5XK0MjkGBrQPGYG24GBADZud0NCbznxNx0ZkS+ebUTrmV1qTDxPxSL8zEAPURXSbLRWVexxmP4986BziahL5w=="],
 
     "node-addon-api": ["node-addon-api@6.1.0", "", {}, "sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA=="],
+
+    "node-bin-setup": ["node-bin-setup@1.1.4", "", {}, "sha512-vWNHOne0ZUavArqPP5LJta50+S8R261Fr5SvGul37HbEDcowvLjwdvd0ZeSr0r2lTSrPxl6okq9QUw8BFGiAxA=="],
 
     "node-fetch": ["node-fetch@2.7.0", "", { "dependencies": { "whatwg-url": "^5.0.0" }, "peerDependencies": { "encoding": "^0.1.0" }, "optionalPeers": ["encoding"] }, "sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A=="],
 
