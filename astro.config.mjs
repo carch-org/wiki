@@ -13,7 +13,7 @@ export default defineConfig({
       plugins: [
         catppuccin({
           dark: { flavor: "mocha", accent: "flamingo" },
-          light: { flavor: "latte", accent: "sky" },
+          light: { flavor: "latte", accent: "flamingo" },
         }),
       ],
       social: [
