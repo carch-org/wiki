@@ -1,11 +1,7 @@
 name: Deploy Carch Docs
 
 on:
-  push:
-    branches: [ main ]
-    paths:
-      - '**'  
-  workflow_dispatch:  # Allows manual trigger
+ workflow_dispatch:  # Allows manual trigger
 
 # Allow this job to clone the repo and create a page deployment
 permissions:
