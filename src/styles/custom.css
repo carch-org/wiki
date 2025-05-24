@@ -1,35 +1,33 @@
 :root {
   --__sl-font: Inter, system-ui, sans-serif !important;
 
-  /* Rounded border variables */
   --border-radius-img: 7px;
   --border-radius-code: 5px;
   --border-radius-card: 25px;
 }
 
-/* Smaller markdown headings */
 .sl-markdown-content h1 {
-  font-size: 180%;
+  font-size: 70%;
 }
 
 .sl-markdown-content h2 {
-  font-size: 140%;
+  font-size: 70%;
 }
 
 .sl-markdown-content h3 {
-  font-size: 120%;
+  font-size: 70%;
 }
 
 .sl-markdown-content h4 {
-  font-size: 110%;
+  font-size: 80%;
 }
 
 .sl-markdown-content h5 {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 .sl-markdown-content h6 {
-  font-size: 95%;
+  font-size: 80%;
 }
 
 img {
@@ -41,6 +39,6 @@ code {
 }
 
 .card {
-  background-color: #24273A !important; /* subtle Catppuccin dark */
+  background-color: #24273A !important;
   border-radius: var(--border-radius-card);
 }
