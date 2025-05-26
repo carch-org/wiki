@@ -5,14 +5,6 @@ lastUpdated: 2025-05-25
 
 <img src="https://cdn-icons-png.flaticon.com/128/7119/7119415.png" width="50" />
 
-# Carch – A Bash-powered script hub with a Rusty face
-
-Carch is my personal little toolbox project. It started off super simple (and kinda ugly) using just Bash and `whiptail`, but over time it's grown into something way cooler. Now it’s a full terminal UI powered by Rust and `ratatui`, but still running all my original Bash scripts underneath.
-
-It’s not perfect, but it works great—and it’s fun to hack on!
-
----
-
 # Inspiration
 
 - **[ChrisTitusTech `linutil`](https://github.com/ChrisTitusTech/linutil/)**  
