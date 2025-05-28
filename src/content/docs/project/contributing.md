@@ -1,25 +1,33 @@
 ---
 title: Contributing
-lastUpdated: 2025-05-25
+lastUpdated: 2025-05-28
 ---
 
-<img src="https://cdn-icons-png.flaticon.com/128/993/993686.png" width="50" />
+# 📑 Table of Contents
+
+- [Contributing to Carch](#contributing-to-carch)
+  - [Understand the Codebase](#-understand-the-codebase)
+  - [Steps to Contribute](#steps-to-contribute)
+
+- [Contributing to Carch Docs](#-contributing-to-carch-docs)
+
+- [Guidelines](#guidelines)
+
+## Contributing to **Carch** 
 
 We're excited that you're interested in contributing to **Carch**! Contributions of all kinds are welcome, whether you're fixing bugs, adding new features, or improving documentation. Follow this guide to get started.
 
-:::tip[Tip]
-> **Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation.  
-
+:::note[Note] 
+> **Before making any contributions**, first open an issue in the **[Feature Request](https://github.com/harilvfs/carch/issues/new?template=feature-reqests.yml)** section. We will discuss the changes there before proceeding with implementation. 
 :::
 
 ## 📌 Understand the Codebase
 
-:::note[Note]
-
+:::tip[Tip]
 > Before contributing, **understand the structure** of Carch:
 > - **The `main` Rust files of Carch are located in:** `src`
 >
->```text
+>```sh
 > src/
 > ├── ui/
 > │   ├── app.rs
@@ -34,7 +42,7 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 > ```
 > 
 > - **All `modules` scripts are organized by category in:**  
-> ```text
+> ```sh
 > modules/
 > ├── Browser/     # Browser related scripts 
 > ├── Desktop/     # Desktop environment related scripts
@@ -45,20 +53,22 @@ We're excited that you're interested in contributing to **Carch**! Contributions
 
 :::
 
+:::note[Note]
 > First, **analyze how the script works** before making any changes. If you want to improve or add to the project, make sure you **understand the structure** and how each piece interacts. This will help you contribute in a way that is consistent with the project's design. 
 >
 > ```sh
-> For committing, use labels like feat: your-commit-message or fix: your-commit-message.
+> For committing, use labels like
+> feat: your-commit-message or fix: your-commit-message.
 > ```
 > 
-> For more information about label messages, check out [here](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
-
+> For more information about Conventional Commits, prefer this [guide](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+:::
 
 If you have questions or need help, feel free to **contact us**:  
 📧 Email: <a href="mailto:harilvfs@chalisehari.com.np">harilvfs@chalisehari.com.np</a>  
 💬 Discord: <a href="https://discord.com/invite/8NJWstnUHd">Join Here</a>  
 
-## Steps to Contribute
+## Steps to Contribute 
 
 ### 1. 🍽️ Fork the Repository
 - Go to the **Carch** GitHub page.
@@ -128,6 +138,55 @@ If you have questions or need help, feel free to **contact us**:
 - Click on **New Pull Request**.
 - Select your branch from the dropdown and describe your changes in detail.
 - Submit the PR for review!
+
+## 📚 Contributing to Carch Docs
+
+#### **Carch Docs** is ➥ [Live Here](https://github.com/carch-org/docs)  
+
+### 🚀 Ways to Contribute
+
+You can contribute by:
+
+- 🪛 Fixing typos or mistakes in existing guides  
+- 🌐 Translating the documentation into other languages (**highly encouraged!**)  
+
+### 🌍 Translating Documentation
+
+#### Want to help make Carch accessible to users worldwide? Help us translate the docs!
+
+If you're contributing a **new language**, follow these steps:
+
+1. 📁 Create a new folder for your language inside the `docs/` directory. Use [ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. `fr`, `es`, `hi`, etc.).  
+2. 🛠️ Translate the Markdown content inside the new folder.  
+3. 🧩 Modify `docs/.vitepress/config.ts`:  
+   - Add your language in the `locales` section.  
+   - Provide a `label`, `lang`, and `link` for navigation.  
+
+### 🧪 Testing Your Changes Locally
+
+To preview your changes:
+
+```sh
+bun install
+bun run docs:dev
+```
+
+:::note[Note]
+> Please open an issue first if you plan to introduce major structural or organizational changes. We’d love to discuss and collaborate on it beforehand!
+:::
+
+### 🧾 Commit Style
+
+Use clear commit messages like:
+
+```sh
+git commit -m "fix(docs): correct typo in installation guide"
+git commit -m "feat(docs): add Hindi translation"
+```
+
+More on [Conventional Commits](https://gist.github.com/harilvfs/53cc86aa79ea4642356540aadc6bd87d).
+
+#### 🙌 Thanks for helping improve the documentation!
 
 ## Guidelines
 
