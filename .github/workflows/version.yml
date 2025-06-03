@@ -30,7 +30,7 @@ jobs:
           VERSION="${{ github.event.inputs.version }}"
 
           sed -i -E "s/(Carch v)[0-9]+\.[0-9]+\.[0-9]+/\1${VERSION}/" "$MDX_FILE"
-          sed -i -E "s|(href=\"https://github.com/harilvfs/carch/releases/tag/v)[^\"]+|\1v${VERSION}|" "$MDX_FILE"
+          sed -i -E "s|(href=\"https://github.com/harilvfs/carch/releases/tag/v)[0-9]+\.[0-9]+\.[0-9]+|\1${VERSION}|" "$MDX_FILE"
 
           grep -q "Carch v${VERSION}" "$MDX_FILE" || {
             echo "failed to update"
