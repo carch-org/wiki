@@ -1,0 +1,63 @@
+name: Version
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version number (e.g., 1.1.1)'
+        required: true
+      target_branch:
+        description: 'Target branch for the PR'
+        required: false
+        default: 'main'
+
+jobs:
+  update_docs_version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 1
+
+      - name: Update version
+        run: |
+          MDX_FILE="src/content/docs/index.mdx"
+          VERSION="${{ github.event.inputs.version }}"
+
+          sed -i -E "s/(Carch v)[0-9]+\.[0-9]+\.[0-9]+/\1${VERSION}/" "$MDX_FILE"
+          sed -i -E "s|(href=\"https://github.com/harilvfs/carch/releases/tag/v)[^\"]+|\1v${VERSION}|" "$MDX_FILE"
+
+          grep -q "Carch v${VERSION}" "$MDX_FILE" || {
+            echo "failed to update"
+            exit 1
+          }
+
+      - name: Create Pull Request
+        id: create_docs_pr
+        uses: peter-evans/create-pull-request@v7.0.8
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          commit-message: "chore(release): update version to ${{ github.event.inputs.version }}"
+          branch: update-docs-version/${{ github.event.inputs.version }}
+          title: "Update docs version to ${{ github.event.inputs.version }}"
+          body: |
+            update the version in config and banner to ${{ github.event.inputs.version }}.
+          base: ${{ github.event.inputs.target_branch }}
+          delete-branch: false
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gh
+
+      - name: Merge PR
+        if: steps.create_docs_pr.outputs.pull-request-number != ''
+        run: |
+          gh pr merge update-docs-version/${{ github.event.inputs.version }} --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
