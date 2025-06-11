@@ -1,7 +1,9 @@
 ---
 title: Installation
-lastUpdated: 2025-05-25
+lastUpdated: 2025-06-12
 ---
+
+**Prerequisite:** `fzf` is required for the TUI interface in the Carch scripts. Make sure it’s installed before using Carch.
 
 ## How to use?
 
@@ -49,20 +51,6 @@ Carch is available on [crates.io](https://crates.io/).
 
 You can install it using Cargo with the [carch](https://crates.io/crates/carch) crate.
 
-First, install dependencies: 
-
-### Arch Linux
-```sh
-sudo pacman -S --noconfirm fzf cargo rust
-```
-
-### Fedora Linux
-```sh
-sudo dnf install fzf cargo rust -y
-```
-
-Now, install Carch using Cargo:
-
 ```sh
 cargo install carch
 ```
@@ -98,8 +86,8 @@ sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-n
 git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
-cd target/release/
-sudo cp -r carch /usr/bin/ 
+cd build/release/
+sudo cp -r carch /usr/local/bin/ 
 ```
 
 Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. The installation should work smoothly, but if any problems arise, please open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
