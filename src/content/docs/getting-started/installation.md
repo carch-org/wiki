@@ -35,14 +35,14 @@ You can also use these options:
 ### Update
 ```sh
 # Update existing installation
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --update
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
 ```
 
 ### Uninstall
 
 ```sh
 # Uninstall Carch
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- --uninstall
+bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
 ```
 
 ## 📦 Cargo Crate
