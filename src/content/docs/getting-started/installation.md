@@ -1,6 +1,6 @@
 ---
 title: Installation
-lastUpdated: 2025-06-12
+lastUpdated: 2025-06-15
 ---
 
 **Prerequisite:** `fzf` is required for the TUI interface in the Carch scripts. Make sure it’s installed before using Carch.
