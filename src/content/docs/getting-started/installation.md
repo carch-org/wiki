@@ -14,12 +14,12 @@ Choose one of the following version to try Carch:
 ### ⭐ Stable Version 
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carch)"
+bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 ```
 ### 🧪 Dev Version
 
 ```sh 
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
 ## Install Script
@@ -27,7 +27,7 @@ bash -c "$(curl -fsSL https://chalisehari.com.np/carchdev)"
 You can install Carch permanently on your system using our install script:
 
 ```sh
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)"
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
 ```
 
 You can also use these options:
@@ -35,14 +35,14 @@ You can also use these options:
 ### Update
 ```sh
 # Update existing installation
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- update
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
 ```
 
 ### Uninstall
 
 ```sh
 # Uninstall Carch
-bash -c "$(curl -fsSL https://chalisehari.com.np/carchinstall)" -- uninstall
+bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
 ```
 
 ## 📦 Cargo Crate
