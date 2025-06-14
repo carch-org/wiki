@@ -1,6 +1,6 @@
 ---
 title: Roadmap
-lastUpdated: 2025-06-04
+lastUpdated: 2025-06-15
 ---
 
 <img src="https://img.icons8.com/?size=80&id=CBfO8TrnezXC&format=png" width="50" />
@@ -56,7 +56,7 @@ lastUpdated: 2025-06-04
 
   - Develop a TUI (Text-based User Interface). <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
   - Create a single executable binary. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" /> 
-  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190411.png" width="20" />
+  - Add additional Rust scripts to enhance scriptability. <img src="https://cdn-icons-png.flaticon.com/128/190/190406.png" width="20" />
 
 - **Add WM setup scripts:**
 
