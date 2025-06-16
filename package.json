@@ -14,7 +14,7 @@
     "@catppuccin/starlight": "^1.0.1",
     "@fontsource/inter": "^5.2.5",
     "astro": "^5.9.0",
-    "node": "^22.16.0",
+    "node": "^24.2.0",
     "sharp": "^0.34.2",
     "starlight-theme-catppuccin": "^2.0.0"
   }
