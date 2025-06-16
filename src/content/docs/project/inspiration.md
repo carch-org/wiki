@@ -1,6 +1,6 @@
 ---
 title: Inspiration
-lastUpdated: 2025-05-25
+lastUpdated: 2025-06-16
 ---
 
 <img src="https://cdn-icons-png.flaticon.com/128/7119/7119415.png" width="50" />
@@ -11,7 +11,7 @@ lastUpdated: 2025-05-25
 
 I love messing around with Linux and scripts. Most of the time, I’m just experimenting, trying random ideas for fun. Even if I’m just sitting and bored, I somehow end up building weird little tools.
 
-One of the things that really inspired me was watching [Chris Titus Tech](https://www.youtube.com/@ChrisTitusTech) and his [streams](https://www.youtube.com/@TitusTechTalk). He’s working on a cool project called [`linutil`](https://github.com/ChrisTitusTech/linutil/), and that kinda gave me the push to make my own version of something like it—but in my own messy way.
+One of the things that really inspired me was watching [Chris Titus Tech](https://www.youtube.com/@ChrisTitusTech) and his [streams](https://www.youtube.com/@TitusTechTalk). He’s working on a cool project called [`linutil`](https://github.com/ChrisTitusTech/linutil/), and that kinda gave me the push to make my own version of something like it but in my own messy way.
 
 In the beginning, the project was... well, **ugly**. I used `whiptail` for the menu. It worked, but it looked super old-school and felt kinda clunky. Honestly, it was just a basic shell script with a bunch of menus slapped together.
 
@@ -21,10 +21,10 @@ Later on, I started using `gum`, which I found through [ml4w](https://github.com
 
 📅 **Updated: 2025-05-01**  
 
-🦀 And now... big step: I’ve added a full Rust-based TUI using `ratatui`. No more ugly menus. The new interface looks way better, runs smoother, and I can finally add features that just weren’t possible in Bash alone.
+🦀 And now... big step: I’ve added a full Rust-based TUI using [`ratatui`](https://ratatui.rs). No more ugly menus. The new interface looks way better, runs smoother, and I can finally add features that just weren’t possible in Bash alone.
 
-**Just to be clear though—the actual Carch scripts (like setup scripts, tools, etc.) are still written in Bash.** I’m not rewriting all of that in Rust (that would be insane). The Rust TUI is mainly for the menu system—handling navigation, categories, and preview. When you select something, it still runs the Bash scripts underneath, and yep, `fzf` is still doing the job there too!
+**Just to be clear though the actual Carch scripts (like setup scripts, tools, etc.) are still written in Bash.** I’m not rewriting all of that in Rust (that would be insane). The Rust TUI is mainly for the menu system handling navigation, categories, and preview. When you select something, it still runs the Bash scripts underneath, and yep, `fzf` is still doing the job there too!
 
-So yeah, it’s a mix: Rust for the interface, Bash for the logic, and `fzf` in the middle holding it all together. It’s weird—but it works!
+So yeah, it’s a mix: Rust for the interface, Bash for the logic, and `fzf` in the middle holding it all together. It’s weird but it works!
 
-Carch really came a long way—from something super basic and kinda ugly, to something I’m proud of. Still lots to do, but it’s getting cooler every day.
+Carch really came a long way from something super basic and kinda ugly, to something I’m proud of. Still lots to do, but it’s getting cooler every day.
