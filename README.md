@@ -1,3 +1,5 @@
+**Note:** Check [carch-org/docs](https://github.com/carch-org/docs) for the official documentation, this wiki is no longer maintained.
+
 <div align="center">
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
@@ -16,7 +18,7 @@ This is the documentation site for the [Carch](https://github.com/harilvfs/carch
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
+  <img src="https://img.shields.io/badge/Maintained%3F-No-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
   <img src="https://img.shields.io/github/license/carch-org/wiki?style=for-the-badge&color=e0ea9d&logoColor=D9E0EE&labelColor=171b22">
 </p>
 
