@@ -13,9 +13,6 @@ lastUpdated: 2025-06-16
 ## Hyprland
 - *Installs the Hyprland compositor along with my pre-configured dotfiles for a streamlined setup.*
 
-## i3wm
-- *Installs and configures i3, providing a lightweight and efficient window management experience.*
-
 ## Fonts
 - *Downloads and installs a variety of Nerd Fonts for improved readability and aesthetics in terminal applications.*
 
@@ -54,9 +51,6 @@ lastUpdated: 2025-06-16
 
 ## Themes & Icons
 - *Installs and applies a set of themes and icons to enhance the look and feel of your desktop.*
-
-## SwayWM
-- *Installs and configures Sway, a lightweight, tiling window manager for Wayland, designed for power users who prefer a keyboard-centric workflow.*
 
 ## Wallpapers
 - *Installs a selection of wallpapers for a personalized desktop aesthetic.*

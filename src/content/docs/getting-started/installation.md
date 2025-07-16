@@ -22,27 +22,28 @@ bash -c "$(curl -fsSL chalisehari.com.np/carch)"
 bash -c "$(curl -fsSL chalisehari.com.np/carchdev)"
 ```
 
-## Install Script
+## 📦 PKGBUILD & RPM
 
-You can install Carch permanently on your system using our install script:
+We use `PKGBUILD` for Arch Linux and `.rpm` files for Fedora and openSUSE.
+
+### Arch Linux
 
 ```sh
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)"
+git clone https://github.com/carch-org/pkgs ~/pkgs
+cd ~/pkgs/carch-bin
+makepkg -si
 ```
 
-You can also use these options:
+### Fedora
 
-### Update
 ```sh
-# Update existing installation
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- update
+sudo dnf install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
 
-### Uninstall
+### openSUSE
 
 ```sh
-# Uninstall Carch
-bash -c "$(curl -fsSL chalisehari.com.np/carchinstall)" -- uninstall
+sudo zypper install -y $(curl -sL https://api.github.com/repos/harilvfs/carch/releases/latest | grep browser_download_url | grep '\.rpm"' | cut -d '"' -f 4 | tee /tmp/carch.rpm)
 ```
 
 ## 📦 Cargo Crate
@@ -80,6 +81,12 @@ sudo pacman -S --noconfirm rust man-db man git wget noto-fonts-emoji curl bash-c
 sudo dnf install rust man-db man git wget google-noto-color-emoji-fonts google-noto-emoji-fonts jetbrains-mono-fonts-all bash-completion-devel curl cargo fzf glibc gcc -y
 ```
 
+### openSUSE
+
+```sh
+sudo zypper install -y rust man man-pages git wget google-noto-fonts google-noto-coloremoji-fonts jetbrains-mono-fonts  symbols-only-nerd-fonts bash-completion curl fzf glibc gcc  
+```
+
 ## 🔧 Clone and Build
 
 ```sh
@@ -87,7 +94,19 @@ git clone --depth 1 https://github.com/harilvfs/carch
 cd carch
 cargo build --release
 cd build/release/
-sudo cp -r carch /usr/local/bin/ 
+sudo cp -r carch /usr/bin/ 
 ```
 
-Now you can run `carch` in your terminal. If you encounter any issues on Fedora, they might be dependency-related. The installation should work smoothly, but if any problems arise, please open an [issue](https://github.com/harilvfs/carch/issues) or email me at **harilvfs@chalisehari.com.np**.
+## 🔄 Update & Uninstall
+
+### Update
+
+```sh
+carch --update
+```
+
+### Uninstall
+
+```sh
+carch --uninstall
+```
