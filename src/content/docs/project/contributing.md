@@ -1,6 +1,6 @@
 ---
 title: Contributing
-lastUpdated: 2025-06-01
+lastUpdated: 2025-07-16
 ---
 
 # 📑 Table of Contents

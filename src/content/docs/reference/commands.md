@@ -1,6 +1,6 @@
 ---
 title: Commands
-lastUpdated: 2025-05-25
+lastUpdated: 2025-07-16
 ---
 
 Carch also supports CLI commands! Use `carch` with the following options:  
