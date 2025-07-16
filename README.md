@@ -1,6 +1,6 @@
-**Note:** Check [carch-org/docs](https://github.com/carch-org/docs) for the official documentation, this wiki is no longer maintained.
-
 <div align="center">
+
+**Note:** Check [carch-org/docs](https://github.com/carch-org/docs) for the official documentation, this wiki is no longer maintained.
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
