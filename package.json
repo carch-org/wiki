@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.34.3",
+    "@astrojs/starlight": "^0.35.0",
     "@catppuccin/starlight": "^1.0.1",
     "@fontsource/inter": "^5.2.5",
     "astro": "^5.9.0",
